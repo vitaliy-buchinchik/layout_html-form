@@ -8,6 +8,6 @@
   margin-bottom: 20px;
 }
 
-input[type="number"] {
+.number {
   width: 65px;
 }

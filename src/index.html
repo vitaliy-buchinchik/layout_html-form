@@ -15,6 +15,7 @@
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="POST"
       autocomplete="off"
+      onsubmit="onSubmit()"
     >
       <fieldset class="fieldset">
         <legend>Personal information</legend>
@@ -43,6 +44,7 @@
           How old are You?
           <input
             type="number"
+            class="number"
             name="age"
             value="12"
             id="age"
@@ -199,10 +201,7 @@
         </label>
       </fieldset>
 
-      <button
-        type="submit"
-        onsubmit="onSubmit()"
-      >
+      <button type="submit">
         Submit
       </button>
     </form>
